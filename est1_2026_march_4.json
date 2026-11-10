@@ -1,0 +1,67 @@
+[
+  {
+    "id": 20260346,
+    "question": "If $x = \\sqrt{3} - 1$, what is the value of $3x^2 - x + 6\\sqrt{3}$?",
+    "options": [
+      "$$13 - \\sqrt{3}$$",
+      "13",
+      "$$13 + \\sqrt{3}$$",
+      "15"
+    ],
+    "correctAnswer": 0,
+    "answerText": "$x^2 = (\\sqrt{3}-1)^2 = 3 - 2\\sqrt{3} + 1 = 4 - 2\\sqrt{3}$. $3x^2 = 12 - 6\\sqrt{3}$. Expression: $(12 - 6\\sqrt{3}) - (\\sqrt{3} - 1) + 6\\sqrt{3} = 12 - \\sqrt{3} + 1 = 13 - \\sqrt{3}$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260347,
+    "question": "The area of $\\Delta ABC$ in the figure above is: (Figure not drawn to scale)<br><img src=\"data:image/png;base64,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\" class=\"max-w-[300px] mx-auto my-2\" />",
+    "options": [
+      "131.5 cm^2",
+      "144.5 cm^2",
+      "150.0 cm^2",
+      "300.0 cm^2"
+    ],
+    "correctAnswer": 2,
+    "answerText": "In right triangle ACD: $CD^2 = 15^2 - 9^2 = 144 \\Rightarrow CD = 12$. In right triangle BCD: $BD^2 = 20^2 - 12^2 = 256 \\Rightarrow BD = 16$. Base $AB = 9 + 16 = 25$. Area = $(1/2) * 25 * 12 = 150$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260348,
+    "question": "The distance between $A(1, -1)$ and $B(3, -2)$ is $\\sqrt{k}$, where $k$ is a real number. What is the value of $k$?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Distance $d^2 = (3 - 1)^2 + (-2 - (-1))^2 = 2^2 + (-1)^2 = 4 + 1 = 5$. Since $d = \\sqrt{5}$, $k = 5$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260349,
+    "question": "If $P(x) = 3x^3 - 2x + m$ is divisible by $(x + 1)$, then the value of $m$ is:",
+    "options": [
+      "1",
+      "3",
+      "6",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "answerText": "By the Remainder Theorem, $P(-1) = 0$. $3(-1)^3 - 2(-1) + m = -3 + 2 + m = -1 + m = 0$. Thus $m = 1$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260350,
+    "question": "What is the product of the positive integers in the solution set of $3x + 1 < 10$?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "answerText": "$3x < 9 \\Rightarrow x < 3$. The positive integers are 1 and 2. Their product is $1 \\times 2 = 2$.",
+    "category": "EST1-2026-MARCH-NEW"
+  }
+]

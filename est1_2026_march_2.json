@@ -1,0 +1,197 @@
+[
+  {
+    "id": 20260316,
+    "question": "What is the approximate perimeter of the shape shown in the figure above? (Figure not drawn to scale).<br><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAABmJLR0QA/wD/AP+gvaeTAAAgAElEQVR4nO3deVSVdeLH8Q+LgIrmrpjigkvZiJWmuOSC+wi4R66RVraMjL+alJZJLW20memnTZp75vrDJUlcysldXBK1chKXkIQUQwUEF0Dg+f2TnEhr9Cvy3Ivv1zn+weUCn3tO9uZ5nuu9LpZlWQIA4Da52j0AAOCcCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAiAm8rPz9eqVavUp08f1axZUx4eHqpevbpatGihyZMn66effrJ7ImzmYlmWZfcIAI4lPT1dAwYM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VatKkjIzM+Xq6qoqVaro4sWLxb4Rt69OnTrq1KmTkpKSeCsFQxyBFIG5c+fKsiyNHDlS3bt3v+HzV69e1ciRI/Xxxx9r4sSJN/0fERxX69atdeDAAR06dEitWrUq9Ln4+HhJUu3ataWfr2EcOHBAKSkpqlatWsH9kpOTFR0drYcfflgtW7Ys5keA35KZmSnxXuvGOAK5Q9cvnnt6emry5MkF51t/+Wf48OHq3bu3kpOTtX79ersn4zaFhYXJxcVFr7/+urKysgpuj42N1Zdffil/f/+CgISEhCgvL09z584t9D2mT5+uUaNGKSkpqdj34+ZiY2O1c+dOlStXTv7+/nbPcUr8KnyHVq1apXPnzmnEiBGqXr36b95v9OjRWr16tebOnXvDM2zg2Jo3b64///nPmjZtmgICAtS/f38lJSVp6dKlcnd31/Tp0wvuGx4eriVLluitt95SfHy8mjRpooMHDyoyMlKdOnVSnz59bH0s96Ivv/yyUPizsrKUkJCgjRs3Ki8vTx999NENT3rArSEgd+j6xfPw8PDfvV+HDh3k7++vjRs3KjExUb6+vsW0EEXh/fff1wMPPKCPPvpI7777rry8vNSpUydNmDBBLVq0KLhfuXLltHPnTo0fP16fffaZFi9eLB8fH7322mt644035ObmZuvjuBfFxMQoJiam4GMvLy/Vrl1bffr00ZgxY9SmTRtb9zkzXkwRAGCEayAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMAIAQEAGCEgAAAjBAQAYISAAACMEBAAgBECAgAwQkAAAEYICADACAEBABghIAAAIwQEAGCEgAAAjBAQAIARAgIAMEJAAABGCAgAwAgBAQAYISAAACMEBABghIAAAIwQEACAEQICADBCQAAARggIAMDI/wNl1pUaphVSNQAAAABJRU5ErkJggg==\" class=\"max-w-[200px] mx-auto my-2\" />",
+    "options": [
+      "10.19 cm",
+      "12.0 cm",
+      "14.73 cm",
+      "16.19 cm"
+    ],
+    "correctAnswer": 3,
+    "answerText": "Perimeter = 2 * r + arc_length. r = 6, angle = 40 degrees. arc = 6 * (40*pi/180) = 4.188. Perimeter = 6 + 6 + 4.188 = 16.19.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260317,
+    "question": "A book contains 400 pages, of which 4 are defective. If 230 copies of the book were distributed each week over the past 5 weeks, how many non-defective pages were distributed in total?",
+    "options": [
+      "4,600",
+      "91,080",
+      "182,160",
+      "455,400"
+    ],
+    "correctAnswer": 3,
+    "answerText": "Non-defective per book = 396. Total books = 230 * 5 = 1150. Total non-defective = 1150 * 396 = 455,400.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260318,
+    "question": "Which of the following is a simplified form of $\\frac{\\sqrt{125a^2}}{\\sqrt{5y^3}}$?",
+    "options": [
+      "$$\\frac{|a|\\sqrt{5y}}{y^2}$$",
+      "$$\\frac{5|a|\\sqrt{y}}{y^2}$$",
+      "$$\\frac{5|a|\\sqrt{5y}}{y^2}$$",
+      "$$5|a|\\sqrt{5y}$$"
+    ],
+    "correctAnswer": 1,
+    "answerText": "Fraction = $\\sqrt{25a^2 / y^3} = 5|a| / y\\sqrt{y}$. Multiply by $\\sqrt{y}/\\sqrt{y}$ to rationalize denominator: $5|a|\\sqrt{y} / y^2$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260319,
+    "question": "Which of the following is a solution of $|3x - 5| + 1 = 2$?",
+    "options": [
+      "$$1/3$$",
+      "1",
+      "2",
+      "$$7/3$$"
+    ],
+    "correctAnswer": 2,
+    "answerText": "$|3x - 5| = 1$ gives $3x - 5 = 1 \\Rightarrow 3x = 6 \\Rightarrow x = 2$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260320,
+    "question": "Which of the following is the equation of the axis of symmetry of the graph of $f(x) = 4x^2 - 20x + 7$?",
+    "options": [
+      "$$y = -18$$",
+      "$$x = -2.5$$",
+      "$$x = 1.5$$",
+      "$$x = 2.5$$"
+    ],
+    "correctAnswer": 3,
+    "answerText": "$x = -b / 2a = -(-20) / (2 * 4) = 20 / 8 = 2.5$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260321,
+    "question": "Which of the following represents the solution set of the system of inequalities above?<br><br>$$ \\begin{cases} 3x - 1 \\ge -10 \\\\ x + 4 < -6 \\end{cases} $$",
+    "options": [
+      "Number line from -11 to -2, open circle at -10 shading left, solid circle at -3 shading right",
+      "Number line from -12 to -1, closed circle at -10 shading right, open circle at -3 shading left",
+      "Number line from -10 to 1, open circle at -10 shading right, solid circle at -3 shading left",
+      "Empty; the system has no solution."
+    ],
+    "correctAnswer": 3,
+    "answerText": "First inequality: $3x \\ge -9 \\Rightarrow x \\ge -3$. Second: $x < -10$. There is no overlap, so the solution set is empty.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260322,
+    "question": "What is the y-coordinate of the midpoint FG given $F(2, -5)$ and $G(0, 11)$?",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "answerText": "Midpoint $y = (y_1 + y_2) / 2 = (-5 + 11) / 2 = 6 / 2 = 3$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260323,
+    "question": "Which of the following has infinitely many solutions?",
+    "options": [
+      "$$4x - 1 = 9$$",
+      "$$|3x + 7| < 4$$",
+      "$$2x - 6 = 3(x + 7)$$",
+      "$$|-4x + 1| > -5$$"
+    ],
+    "correctAnswer": 3,
+    "answerText": "Absolute value is always non-negative, so it is always strictly greater than a negative number like -5. Therefore, $|-4x + 1| > -5$ is true for all real numbers.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260324,
+    "question": "Consider the function $f(x) = 3ax^3 + 4bx^2 + x + x^3$, where a and b are two real numbers. In order to make the equation a quadratic one, a must be equal to:",
+    "options": [
+      "-1",
+      "$$-1/3$$",
+      "0",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "answerText": "Group cubic terms: $(3a + 1)x^3$. For it to be quadratic, the cubic term must vanish: $3a + 1 = 0 \\Rightarrow a = -1/3$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260325,
+    "question": "If $a = 1$, and the coefficient of the $x^2$ term is equal to the coefficient of the $x^3$ term, then what is the value of $b$?",
+    "options": [
+      "-1",
+      "$$1/2$$",
+      "1",
+      "$$3/2$$"
+    ],
+    "correctAnswer": 2,
+    "answerText": "If $a = 1$, cubic coeff is $3(1) + 1 = 4$. Quadratic coeff is $4b$. Setting them equal: $4b = 4 \\Rightarrow b = 1$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260326,
+    "question": "In the table above, x and y represent a linear relationship. What is the value of 2a?<br><br><table class=\"table-auto border-collapse border border-gray-400 w-full max-w-xs mb-4 text-center\"><thead><tr class=\"bg-gray-100\"><th class=\"border border-gray-400 px-2 py-1\">x</th><th class=\"border border-gray-400 px-2 py-1\">y</th></tr></thead><tbody><tr><td class=\"border border-gray-400 px-2 py-1\">2</td><td class=\"border border-gray-400 px-2 py-1\">5</td></tr><tr><td class=\"border border-gray-400 px-2 py-1\">5</td><td class=\"border border-gray-400 px-2 py-1\">a</td></tr><tr><td class=\"border border-gray-400 px-2 py-1\">7</td><td class=\"border border-gray-400 px-2 py-1\">15</td></tr></tbody></table>",
+    "options": [
+      "5.5",
+      "13.0",
+      "17.5",
+      "22.0"
+    ],
+    "correctAnswer": 3,
+    "answerText": "Slope $m = (15 - 5) / (7 - 2) = 10 / 5 = 2$. Using $x=5$: $y - 5 = 2(5 - 2) \\Rightarrow a - 5 = 6 \\Rightarrow a = 11$. Then $2a = 22$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260327,
+    "question": "If $1.2\\ m^3$ of a pool can be filled by 9 gallons of water, how many gallons are needed to fill a $26\\ m^3$ pool?",
+    "options": [
+      "195",
+      "202",
+      "223",
+      "234"
+    ],
+    "correctAnswer": 0,
+    "answerText": "Set up proportion: $9 / 1.2 = x / 26 \\Rightarrow x = (9 \\times 26) / 1.2 = 234 / 1.2 = 195$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260328,
+    "question": "The volume of a sphere of radius 12 cm is $k\\pi$. The value of $k$ is:",
+    "options": [
+      "192",
+      "576",
+      "2,304",
+      "6,912"
+    ],
+    "correctAnswer": 2,
+    "answerText": "$V = (4/3)\\pi r^3 = (4/3)\\pi(12)^3 = (4/3)\\pi(1728) = 2304\\pi$. Thus $k = 2304$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260329,
+    "question": "What is the absolute value of the negative root of $p(x) = x^3 - x^2 - 14x + 24$?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Testing factors of 24. For $x = -4$, $(-4)^3 - (-4)^2 - 14(-4) + 24 = -64 - 16 + 56 + 24 = 0$. So $-4$ is a root. Its absolute value is 4.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260330,
+    "question": "The greatest positive integer in the solution set of the inequality $3x - 4 \\le 1$ is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "answerText": "$3x \\le 5 \\Rightarrow x \\le 5/3 \\approx 1.67$. The greatest positive integer is 1.",
+    "category": "EST1-2026-MARCH-NEW"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": " Math sat est-oct7",
+  "description": "Comprehensive Math Prep for American Diploma (EST, DSAT, ACT) with Deep Learning Technology.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

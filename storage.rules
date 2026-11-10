@@ -1,0 +1,59 @@
+
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // --- Helper Functions ---
+
+    // 1. Check if the user is signed in
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // 2. Check if the user owns the data (matches the userId folder)
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // 3. Check for Admin Role
+    // Note: For this to work securely, you should set Custom Claims on the user token.
+    // If not using Custom Claims, this check relies on the user simply being signed in 
+    // combined with the app's frontend logic (less secure but functional for basic apps).
+    function isAdmin() {
+      return isSignedIn() && (request.auth.token.role == 'admin' || request.auth.token.role == 'co-admin');
+    }
+
+    // --- Access Rules ---
+
+    // 1. User Specific Data (e.g., /users/student123/homework.png)
+    // - Owner: Can Read & Write (Upload homework, view profile)
+    // - Signed In Users (Parents/Admins): Can Read (View homework/progress)
+    // - Admins: Can Write (Upload feedback, manage data)
+    match /users/{userId}/{allPaths=**} {
+      allow read: if isSignedIn();
+      allow write: if isOwner(userId) || isAdmin();
+    }
+
+    // 2. Question Bank & AI Uploads (e.g., /questions/image.jpg)
+    // - All Signed In: Can Read (To see questions in quizzes)
+    // - All Signed In: Can Write (To upload images for AI Smart Practice)
+    match /questions/{allPaths=**} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn();
+    }
+
+    // 3. General Assets (Icons, Logos)
+    // - Public: Read
+    // - Admin: Write
+    match /assets/{allPaths=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 4. Default Lock (Deny everything else)
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

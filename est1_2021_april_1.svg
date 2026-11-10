@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 400" width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <!-- Grid 9x9 from 50 to 350, spacing 33.33 -->
+    <line x1="50" y1="50" x2="350" y2="50"/>
+    <line x1="50" y1="83.33" x2="350" y2="83.33"/>
+    <line x1="50" y1="116.66" x2="350" y2="116.66"/>
+    <line x1="50" y1="150" x2="350" y2="150"/>
+    <line x1="50" y1="183.33" x2="350" y2="183.33"/>
+    <line x1="50" y1="216.66" x2="350" y2="216.66"/>
+    <line x1="50" y1="250" x2="350" y2="250"/>
+    <line x1="50" y1="283.33" x2="350" y2="283.33"/>
+    <line x1="50" y1="316.66" x2="350" y2="316.66"/>
+    <line x1="50" y1="350" x2="350" y2="350"/>
+    
+    <line x1="50" y1="50" x2="50" y2="350"/>
+    <line x1="83.33" y1="50" x2="83.33" y2="350"/>
+    <line x1="116.66" y1="50" x2="116.66" y2="350"/>
+    <line x1="150" y1="50" x2="150" y2="350"/>
+    <line x1="183.33" y1="50" x2="183.33" y2="350"/>
+    <line x1="216.66" y1="50" x2="216.66" y2="350"/>
+    <line x1="250" y1="50" x2="250" y2="350"/>
+    <line x1="283.33" y1="50" x2="283.33" y2="350"/>
+    <line x1="316.66" y1="50" x2="316.66" y2="350"/>
+    <line x1="350" y1="50" x2="350" y2="350"/>
+  </g>
+  
+  <!-- Axes: Origin (0,0) at (216.66, 250) -->
+  <g stroke="black" stroke-width="2">
+    <!-- X axis -->
+    <line x1="40" y1="250" x2="360" y2="250"/>
+    <polygon points="360,246 366,250 360,254" fill="black"/>
+    <!-- Y axis -->
+    <line x1="216.66" y1="360" x2="216.66" y2="40"/>
+    <polygon points="212.66,40 216.66,34 220.66,40" fill="black"/>
+  </g>
+  
+  <!-- Circle: Center E(-1, 2) => (216.66 - 33.33, 250 - 2*33.33) = (183.33, 183.33) -->
+  <!-- Passes through F(-3, 0) => (216.66 - 3*33.33, 250) = (116.66, 250) -->
+  <!-- Radius = sqrt((-2)^2 + (2)^2) = sqrt(8) = 2.828 units = 2.828 * 33.33 = 94.28 px -->
+  <circle cx="183.33" cy="183.33" r="94.28" fill="none" stroke="#4b5563" stroke-width="2"/>
+  
+  <!-- Center E -->
+  <circle cx="183.33" cy="183.33" r="4" fill="black"/>
+  <text x="183.33" y="175" font-family="serif" font-size="16" fill="black" text-anchor="middle">E</text>
+  
+  <!-- Point F -->
+  <circle cx="116.66" cy="250" r="4" fill="black"/>
+  <text x="106.66" y="265" font-family="serif" font-size="16" fill="black" text-anchor="middle">F</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg viewBox="0 0 600 350" width="100%" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <!-- Horizontal lines -->
+    <!-- Y axis: 0 to 12. step=2 => 6 intervals. Say 30px each -->
+    <!-- 0 is at y=300 -->
+    <!-- 2: 270, 4: 240, 6: 210, 8: 180, 10: 150, 12: 120 -->
+    <line x1="50" y1="120" x2="550" y2="120"/>
+    <line x1="50" y1="150" x2="550" y2="150"/>
+    <line x1="50" y1="180" x2="550" y2="180"/>
+    <line x1="50" y1="210" x2="550" y2="210"/>
+    <line x1="50" y1="240" x2="550" y2="240"/>
+    <line x1="50" y1="270" x2="550" y2="270"/>
+    
+    <line x1="50" y1="135" x2="550" y2="135"/>
+    <line x1="50" y1="165" x2="550" y2="165"/>
+    <line x1="50" y1="195" x2="550" y2="195"/>
+    <line x1="50" y1="225" x2="550" y2="225"/>
+    <line x1="50" y1="255" x2="550" y2="255"/>
+    <line x1="50" y1="285" x2="550" y2="285"/>
+    
+    <!-- Vertical lines -->
+    <!-- 12 months. Start x=90, spacing 40 -->
+    <line x1="90" y1="100" x2="90" y2="300"/>
+    <line x1="130" y1="100" x2="130" y2="300"/>
+    <line x1="170" y1="100" x2="170" y2="300"/>
+    <line x1="210" y1="100" x2="210" y2="300"/>
+    <line x1="250" y1="100" x2="250" y2="300"/>
+    <line x1="290" y1="100" x2="290" y2="300"/>
+    <line x1="330" y1="100" x2="330" y2="300"/>
+    <line x1="370" y1="100" x2="370" y2="300"/>
+    <line x1="410" y1="100" x2="410" y2="300"/>
+    <line x1="450" y1="100" x2="450" y2="300"/>
+    <line x1="490" y1="100" x2="490" y2="300"/>
+    <line x1="530" y1="100" x2="530" y2="300"/>
+  </g>
+  
+  <!-- Axes -->
+  <line x1="50" y1="300" x2="570" y2="300" stroke="black" stroke-width="2"/>
+  <polygon points="570,296 576,300 570,304" fill="black"/>
+  <line x1="70" y1="320" x2="70" y2="90" stroke="black" stroke-width="2"/>
+  <polygon points="66,90 70,84 74,90" fill="black"/>
+  
+  <text x="80" y="85" font-family="sans-serif" font-size="12" fill="black">in thousands dollars</text>
+  
+  <!-- Y labels -->
+  <text x="60" y="274" font-family="sans-serif" font-size="12" fill="black" text-anchor="end">2</text>
+  <text x="60" y="244" font-family="sans-serif" font-size="12" fill="black" text-anchor="end">4</text>
+  <text x="60" y="214" font-family="sans-serif" font-size="12" fill="black" text-anchor="end">6</text>
+  <text x="60" y="184" font-family="sans-serif" font-size="12" fill="black" text-anchor="end">8</text>
+  <text x="60" y="154" font-family="sans-serif" font-size="12" fill="black" text-anchor="end">10</text>
+  <text x="60" y="124" font-family="sans-serif" font-size="12" fill="black" text-anchor="end">12</text>
+  
+  <!-- X labels -->
+  <text x="90" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Jan</text>
+  <text x="130" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Feb</text>
+  <text x="170" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Mar</text>
+  <text x="210" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Apr</text>
+  <text x="250" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">May</text>
+  <text x="290" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">June</text>
+  <text x="330" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">July</text>
+  <text x="370" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Aug</text>
+  <text x="410" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Sep</text>
+  <text x="450" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Oct</text>
+  <text x="490" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Nov</text>
+  <text x="530" y="315" font-family="sans-serif" font-size="12" fill="black" text-anchor="middle">Dec</text>
+  
+  <!-- Data points and drop lines -->
+  <g stroke="black" stroke-width="1.5">
+    <line x1="90" y1="300" x2="90" y2="270"/> <text x="90" y="270" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="130" y1="300" x2="130" y2="255"/> <text x="130" y="255" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="170" y1="300" x2="170" y2="270"/> <text x="170" y="270" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="210" y1="300" x2="210" y2="180"/> <text x="210" y="180" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="250" y1="300" x2="250" y2="210"/> <text x="250" y="210" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="290" y1="300" x2="290" y2="240"/> <text x="290" y="240" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="330" y1="300" x2="330" y2="270"/> <text x="330" y="270" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="370" y1="300" x2="370" y2="285"/> <text x="370" y="285" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="410" y1="300" x2="410" y2="135"/> <text x="410" y="135" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="450" y1="300" x2="450" y2="165"/> <text x="450" y="165" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="490" y1="300" x2="490" y2="255"/> <text x="490" y="255" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+    <line x1="530" y1="300" x2="530" y2="210"/> <text x="530" y="210" font-family="sans-serif" font-size="14" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="central">x</text>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+sed -i 's/import { questionService }/import { storage } from "..\/firebase";\nimport { ref, uploadBytes, getDownloadURL } from "firebase\/storage";\nimport { questionService }/g' components/ExamEditor.tsx

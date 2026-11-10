@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.*
+_backup_before_redesign/
+*.log
+.DS_Store
+
+# Large archives & non-source artifacts
+*.tar.gz
+*.zip
+test.pdf
+test.docx
+raw_ocr.txt
+out.txt
+oct22.txt
+topics.txt
+
+# Scratch / backup folders
+tmp_scripts/
+Claude outputs/

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["./**/*.ts", "./**/*.tsx"],
+  "exclude": ["node_modules", "test_gen.ts", "extract_oct.ts", "test_firestore_circular.ts", "upload_est1_2025_form1.ts", "upload_est1_2025_form2.ts", "upload_est1_2025_form3.ts", "upload_est1_2025_form4_part2.ts", "upload_est1_2025_forms456.ts", "upload_to_firebase.ts", "gen_pythagoras.ts", "check_circular.ts"]
+}

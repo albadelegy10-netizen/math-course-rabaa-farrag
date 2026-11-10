@@ -1,0 +1,197 @@
+[
+  {
+    "id": 20260301,
+    "question": "An amount of $14,000 is divided among three sisters, Layla, Yasmine, and Aya, in the ratio 1: 2: 4, respectively. How much did Yasmine receive?",
+    "options": [
+      "$2,000",
+      "$4,000",
+      "$7,000",
+      "$8,000"
+    ],
+    "correctAnswer": 1,
+    "answerText": "The total ratio parts = 1 + 2 + 4 = 7. Yasmine gets 2 parts. Yasmine's share = (2/7) * 14000 = 4000.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260302,
+    "question": "What is the median of the set of data above?<br><br>$$6, 7, 7, 6, 1, 5, 9, 9, 7, 10$$",
+    "options": [
+      "5.0",
+      "6.5",
+      "7.0",
+      "7.5"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Ordered data: 1, 5, 6, 6, 7, 7, 7, 9, 9, 10. There are 10 values, so median is the average of the 5th and 6th values: (7+7)/2 = 7.0.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260303,
+    "question": "A car rental company leased a total of 54 cars of various brands to an embassy for a period of one year. The table above shows the number of cars rented each brand along with the total revenue earned at the end of one year.<br><br><table class=\"table-auto border-collapse border border-gray-400 w-full max-w-xs mb-4 text-center\"><thead><tr class=\"bg-gray-100\"><th class=\"border border-gray-400 px-2 py-1\">Brand</th><th class=\"border border-gray-400 px-2 py-1\">Number of cars rented</th><th class=\"border border-gray-400 px-2 py-1\">Revenue earned (in $)</th></tr></thead><tbody><tr><td class=\"border border-gray-400 px-2 py-1\">Hyundai</td><td class=\"border border-gray-400 px-2 py-1\">14</td><td class=\"border border-gray-400 px-2 py-1\">134,400</td></tr><tr><td class=\"border border-gray-400 px-2 py-1\">Toyota</td><td class=\"border border-gray-400 px-2 py-1\">8</td><td class=\"border border-gray-400 px-2 py-1\">85,440</td></tr><tr><td class=\"border border-gray-400 px-2 py-1\">Jeep</td><td class=\"border border-gray-400 px-2 py-1\">19</td><td class=\"border border-gray-400 px-2 py-1\">239,400</td></tr><tr><td class=\"border border-gray-400 px-2 py-1\">Honda</td><td class=\"border border-gray-400 px-2 py-1\">13</td><td class=\"border border-gray-400 px-2 py-1\">117,000</td></tr></tbody></table><br><br>What is the monthly rental cost paid by the embassy for each Hyundai car?",
+    "options": [
+      "$750",
+      "$760",
+      "$775",
+      "$800"
+    ],
+    "correctAnswer": 3,
+    "answerText": "Hyundai revenue = $134,400 for 14 cars over 1 year (12 months). Yearly per car = 134400 / 14 = 9600. Monthly per car = 9600 / 12 = $800.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260304,
+    "question": "At the end of the year, the company paid 11% of its total revenue to the government as taxes. What was the total amount paid as taxes for the year? (Refer to the previous car rental table)",
+    "options": [
+      "14,784.0",
+      "37,052.4",
+      "50,770.6",
+      "63,386.4"
+    ],
+    "correctAnswer": 3,
+    "answerText": "Total revenue = 134400 + 85440 + 239400 + 117000 = 576,240. Taxes = 0.11 * 576240 = 63,386.4.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260305,
+    "question": "The company offered the embassy a 20% discount on all Jeep rentals as a gesture of appreciation for renewing the contract for an additional year. What will be the new monthly rental cost per Jeep for the second year?",
+    "options": [
+      "$800",
+      "$840",
+      "$850",
+      "$900"
+    ],
+    "correctAnswer": 1,
+    "answerText": "Jeep yearly revenue = $239,400 for 19 cars. Yearly per car = 239400 / 19 = 12600. Monthly per car = 12600 / 12 = $1050. After 20% discount: 1050 * 0.8 = $840.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260306,
+    "question": "The probability that Mohammad successfully scores a penalty in a football match is 0.3. If he takes 3 penalty shots in a single game, what is the probability that he scores all three?",
+    "options": [
+      "0.027",
+      "0.343",
+      "0.540",
+      "0.90"
+    ],
+    "correctAnswer": 0,
+    "answerText": "Probability = 0.3 * 0.3 * 0.3 = 0.027.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260307,
+    "question": "How many possible arrangements can be formed using all the letters in the word OFFICE?",
+    "options": [
+      "180",
+      "360",
+      "720",
+      "1,440"
+    ],
+    "correctAnswer": 1,
+    "answerText": "The word OFFICE has 6 letters with 'F' repeating 2 times. Total arrangements = 6! / 2! = 720 / 2 = 360.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260308,
+    "question": "What is the equation of the line passing through $A(-9, 3)$ and $B(1, 4)$?",
+    "options": [
+      "$$y = -x + 5$$",
+      "$$y = 0.1x - 3.9$$",
+      "$$y = 0.1x + 3.9$$",
+      "$$y = x + 3$$"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Slope m = (4 - 3) / (1 - (-9)) = 1 / 10 = 0.1. Using point-slope: y - 4 = 0.1(x - 1) => y = 0.1x - 0.1 + 4 => y = 0.1x + 3.9.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260309,
+    "question": "Given $f(x) = -3(x + 4) - 4x^2$ and $g(x) = 2x^2 - x + 1$, the value of $(\\frac{f}{g})(1)$ is:",
+    "options": [
+      "-9.5",
+      "-4.0",
+      "4.5",
+      "9.5"
+    ],
+    "correctAnswer": 0,
+    "answerText": "f(1) = -3(1+4) - 4(1)^2 = -15 - 4 = -19. g(1) = 2(1)^2 - 1 + 1 = 2. f(1)/g(1) = -19 / 2 = -9.5.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260310,
+    "question": "The table below displays the number of locals and expatriate students enrolled at high school.<br><br><table class=\"table-auto border-collapse border border-gray-400 w-full max-w-xs mb-4 text-center\"><thead><tr class=\"bg-gray-100\"><th class=\"border border-gray-400 px-2 py-1\"></th><th class=\"border border-gray-400 px-2 py-1\">Locals</th><th class=\"border border-gray-400 px-2 py-1\">Expats</th></tr></thead><tbody><tr><td class=\"border border-gray-400 px-2 py-1 font-bold\">Boys</td><td class=\"border border-gray-400 px-2 py-1\">101</td><td class=\"border border-gray-400 px-2 py-1\">60</td></tr><tr><td class=\"border border-gray-400 px-2 py-1 font-bold\">Girls</td><td class=\"border border-gray-400 px-2 py-1\">125</td><td class=\"border border-gray-400 px-2 py-1\">34</td></tr></tbody></table><br><br>If a student is selected at random, what is the probability that the student is a boy?",
+    "options": [
+      "0.316",
+      "0.467",
+      "0.503",
+      "0.519"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Total students = 101+60+125+34 = 320. Total boys = 101+60 = 161. Probability = 161 / 320 = 0.503.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260311,
+    "question": "If a student is selected at random, what is the probability that he is a boy given that he is a local student? (Refer to the previous Locals/Expats table)",
+    "options": [
+      "0.265",
+      "0.316",
+      "0.447",
+      "0.638"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Total Locals = 101 + 125 = 226. Local Boys = 101. Probability = 101 / 226 = 0.447.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260312,
+    "question": "The price of a mobile phone increased by 40%, resulting in a final price of $308. What was the original price of the mobile phone before the increase?",
+    "options": [
+      "$220",
+      "$250",
+      "$280",
+      "$288"
+    ],
+    "correctAnswer": 0,
+    "answerText": "Let x be original price. x * 1.40 = 308. x = 308 / 1.40 = 220.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260313,
+    "question": "Which of the following is not a factor of $P(x) = 3x^4 + 5x^3 - 64x^2 - 164x - 80$?",
+    "options": [
+      "$$x - 5$$",
+      "$$x - 2$$",
+      "$$x + 4$$",
+      "$$3x + 2$$"
+    ],
+    "correctAnswer": 1,
+    "answerText": "Using Remainder Theorem, test roots. For x=2: P(2) = 3(16)+5(8)-64(4)-164(2)-80 = 48+40-256-328-80 = -576 != 0. Thus x-2 is not a factor.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260314,
+    "question": "Jalal invested $4,500 for 2 years at an annual simple interest rate of 2%. How much interest did he earn at the end of the 2 years?",
+    "options": [
+      "$90.0",
+      "$180.0",
+      "$181.8",
+      "$300.2"
+    ],
+    "correctAnswer": 1,
+    "answerText": "Simple Interest I = P * r * t = 4500 * 0.02 * 2 = 180.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260315,
+    "question": "The average of the set of data below is 5. What is the value of k?<br><br>$$7k, k + 10, 3k + 2, 4k - 4$$",
+    "options": [
+      "0.6",
+      "0.8",
+      "1.2",
+      "1.4"
+    ],
+    "correctAnswer": 1,
+    "answerText": "Sum = (7k) + (k+10) + (3k+2) + (4k-4) = 15k + 8. Average = (15k + 8) / 4 = 5. So 15k + 8 = 20 => 15k = 12 => k = 12/15 = 0.8.",
+    "category": "EST1-2026-MARCH-NEW"
+  }
+]

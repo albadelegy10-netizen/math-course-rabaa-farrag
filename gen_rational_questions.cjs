@@ -1,0 +1,285 @@
+const fs = require('fs');
+
+const questions = [];
+
+function addQuestion(q, options, correctAnswer, explanation, difficulty) {
+    questions.push({
+        id: `est2_rational_${questions.length + 1}`,
+        question: q,
+        options: options,
+        correctAnswer: correctAnswer,
+        explanation: explanation,
+        category: "Math",
+        difficulty: difficulty,
+        topics: ["Rational Functions"]
+    });
+}
+
+// 1-5 Domain
+addQuestion(
+    "What is the domain of the function $f(x) = \\frac{3x - 1}{x + 5}$?",
+    ["All real numbers except $x = -5$", "All real numbers except $x = 5$", "All real numbers except $x = \\frac{1}{3}$", "All real numbers except $x = 3$"],
+    0,
+    "The denominator cannot be zero. Setting $x + 5 = 0$ gives $x = -5$. So, the domain is all real numbers except $x = -5$.",
+    "Easy"
+);
+
+addQuestion(
+    "Find the domain of $g(x) = \\frac{2x}{x^2 - 9}$.",
+    ["$x \\neq 3$", "$x \\neq -3$", "$x \\neq -3$ and $x \\neq 3$", "$x \\neq 0$"],
+    2,
+    "The denominator $x^2 - 9$ factors to $(x - 3)(x + 3)$. Setting it to zero gives $x = 3$ and $x = -3$. The domain is all real numbers except these values.",
+    "Easy"
+);
+
+addQuestion(
+    "What is the domain of $h(x) = \\frac{x - 4}{x^2 + 4x + 4}$?",
+    ["$x \\neq -4$", "$x \\neq -2$", "$x \\neq 2$", "$x \\neq 4$"],
+    1,
+    "The denominator $x^2 + 4x + 4$ is a perfect square $(x + 2)^2$. Setting it to zero gives $x = -2$. Thus, $x \\neq -2$.",
+    "Medium"
+);
+
+addQuestion(
+    "Determine the domain of the rational function $f(x) = \\frac{x^2 - 1}{x^2 + 1}$.",
+    ["$x \\neq -1$", "$x \\neq 1$", "$x \\neq -1$ and $x \\neq 1$", "All real numbers"],
+    3,
+    "The denominator is $x^2 + 1$. For any real number $x$, $x^2 \\geq 0$, so $x^2 + 1 \\geq 1$. The denominator is never zero, so the domain is all real numbers.",
+    "Medium"
+);
+
+addQuestion(
+    "Find the domain of $f(x) = \\frac{5}{2x^2 - 5x - 3}$.",
+    ["$x \\neq -\\frac{1}{2}$ and $x \\neq 3$", "$x \\neq \\frac{1}{2}$ and $x \\neq -3$", "$x \\neq 3$", "$x \\neq -\\frac{1}{2}$"],
+    0,
+    "Factor the denominator: $2x^2 - 5x - 3 = (2x + 1)(x - 3)$. Setting to zero gives $x = -\\frac{1}{2}$ and $x = 3$.",
+    "Medium"
+);
+
+// 6-10 Vertical Asymptotes
+addQuestion(
+    "What is the equation of the vertical asymptote of $f(x) = \\frac{x + 2}{x - 7}$?",
+    ["$x = -2$", "$x = 7$", "$y = 1$", "$y = 7$"],
+    1,
+    "The vertical asymptote occurs where the denominator is zero (and the numerator is non-zero). $x - 7 = 0 \\Rightarrow x = 7$.",
+    "Easy"
+);
+
+addQuestion(
+    "Find the vertical asymptotes of the function $f(x) = \\frac{3x}{x^2 - 16}$.",
+    ["$x = 4$", "$x = -4$ and $x = 4$", "$x = 0$", "No vertical asymptotes"],
+    1,
+    "The denominator $x^2 - 16 = (x - 4)(x + 4)$. It equals zero at $x = 4$ and $x = -4$. Neither makes the numerator zero.",
+    "Easy"
+);
+
+addQuestion(
+    "Determine the vertical asymptote(s) of $g(x) = \\frac{x^2 - 4x + 3}{x - 1}$.",
+    ["$x = 1$", "$x = 3$", "$x = -1$", "No vertical asymptotes"],
+    3,
+    "Factor the numerator: $\\frac{(x - 1)(x - 3)}{x - 1}$. For $x \\neq 1$, this simplifies to $x - 3$. Since the $x - 1$ factor cancels out, there is a hole at $x = 1$, not a vertical asymptote.",
+    "Medium"
+);
+
+addQuestion(
+    "How many vertical asymptotes does the function $h(x) = \\frac{x + 5}{x^3 - x}$ have?",
+    ["One", "Two", "Three", "Four"],
+    2,
+    "The denominator $x^3 - x = x(x^2 - 1) = x(x - 1)(x + 1)$. This equals zero at $x = 0$, $x = 1$, and $x = -1$. None of these make the numerator zero, so there are three vertical asymptotes.",
+    "Medium"
+);
+
+addQuestion(
+    "Identify the vertical asymptote of $f(x) = \\frac{2x + 1}{4x^2 - 1}$.",
+    ["$x = \\frac{1}{2}$", "$x = -\\frac{1}{2}$", "$x = -\\frac{1}{2}$ and $x = \\frac{1}{2}$", "$x = 1$"],
+    0,
+    "Factor the denominator: $4x^2 - 1 = (2x - 1)(2x + 1)$. The function is $f(x) = \\frac{2x + 1}{(2x - 1)(2x + 1)} = \\frac{1}{2x - 1}$ for $x \\neq -\\frac{1}{2}$. The simplified function has a vertical asymptote at $2x - 1 = 0 \\Rightarrow x = \\frac{1}{2}$.",
+    "Hard"
+);
+
+// 11-15 Horizontal Asymptotes
+addQuestion(
+    "What is the horizontal asymptote of $f(x) = \\frac{4x - 5}{2x + 3}$?",
+    ["$y = 0$", "$y = 2$", "$y = -\\frac{5}{3}$", "$y = 4$"],
+    1,
+    "The degrees of the numerator and denominator are both 1. The horizontal asymptote is the ratio of their leading coefficients: $y = \\frac{4}{2} = 2$.",
+    "Easy"
+);
+
+addQuestion(
+    "Find the horizontal asymptote of $g(x) = \\frac{3x^2 + 2x - 1}{x^3 + 5}$.",
+    ["$y = 3$", "$y = 0$", "No horizontal asymptote", "$y = -1$"],
+    1,
+    "The degree of the numerator (2) is less than the degree of the denominator (3). Therefore, the horizontal asymptote is $y = 0$.",
+    "Easy"
+);
+
+addQuestion(
+    "Determine the horizontal asymptote of $h(x) = \\frac{5x^3 - 2x^2}{3x^3 + x - 7}$.",
+    ["$y = \\frac{5}{3}$", "$y = 0$", "No horizontal asymptote", "$y = -2$"],
+    0,
+    "The degrees of the numerator and denominator are both 3. The horizontal asymptote is the ratio of the leading coefficients: $y = \\frac{5}{3}$.",
+    "Medium"
+);
+
+addQuestion(
+    "Does the function $f(x) = \\frac{2x^4 - 3}{x^2 + 1}$ have a horizontal asymptote?",
+    ["Yes, $y = 2$", "Yes, $y = 0$", "No, it has an oblique asymptote", "No, it has no horizontal asymptote"],
+    3,
+    "The degree of the numerator (4) is greater than the degree of the denominator (2). Therefore, there is no horizontal asymptote.",
+    "Medium"
+);
+
+addQuestion(
+    "Find the horizontal asymptote of $f(x) = \\frac{-8x^2 + 3x}{4x^2 - x + 2}$.",
+    ["$y = -2$", "$y = 0$", "$y = -8$", "$y = 2$"],
+    0,
+    "The degrees are equal (both are 2). The horizontal asymptote is $y = \\frac{-8}{4} = -2$.",
+    "Medium"
+);
+
+// 16-20 Range
+addQuestion(
+    "What is the range of $f(x) = \\frac{2x}{x - 1}$?",
+    ["All real numbers", "All real numbers except $y = 1$", "All real numbers except $y = 2$", "All real numbers except $y = 0$"],
+    2,
+    "The horizontal asymptote is $y = \\frac{2}{1} = 2$. For this function, $y$ can never equal 2. So the range is all real numbers except $y = 2$.",
+    "Medium"
+);
+
+addQuestion(
+    "Find the range of $f(x) = \\frac{1}{x} + 3$.",
+    ["$y \\neq 0$", "$y \\neq 3$", "$y \\neq 1$", "All real numbers"],
+    1,
+    "The function can be written as $f(x) = \\frac{3x + 1}{x}$. The horizontal asymptote is $y = 3$. The fraction $\\frac{1}{x}$ can never be 0, so $f(x)$ can never be $0 + 3 = 3$. The range is $y \\neq 3$.",
+    "Medium"
+);
+
+addQuestion(
+    "Determine the range of $g(x) = \\frac{x^2 + 1}{x^2}$.",
+    ["$y \\neq 1$", "$y > 1$", "$y \\geq 1$", "$y < 1$"],
+    1,
+    "We can rewrite the function as $g(x) = 1 + \\frac{1}{x^2}$. Since $x^2 > 0$ for all $x \\neq 0$, the term $\\frac{1}{x^2}$ is strictly greater than 0. Therefore, $1 + \\frac{1}{x^2} > 1$. The range is $y > 1$.",
+    "Hard"
+);
+
+addQuestion(
+    "What is the range of $f(x) = \\frac{-3}{x+2}$?",
+    ["$y \\neq -2$", "$y \\neq -3$", "$y \\neq 0$", "All real numbers"],
+    2,
+    "The horizontal asymptote is $y = 0$. Since the numerator is non-zero, the fraction can never equal zero. The range is $y \\neq 0$.",
+    "Medium"
+);
+
+addQuestion(
+    "Find the range of $f(x) = \\frac{x^2 - 9}{x - 3}$.",
+    ["$y \\neq 3$", "$y \\neq -3$", "$y \\neq 6$", "All real numbers"],
+    2,
+    "Simplify the function: $f(x) = \\frac{(x - 3)(x + 3)}{x - 3} = x + 3$ for $x \\neq 3$. The graph is a line with a hole at $x = 3$. The $y$-coordinate of the hole is $y = 3 + 3 = 6$. So the range is all real numbers except $y = 6$.",
+    "Hard"
+);
+
+// 21-25 Mixed 1
+addQuestion(
+    "Which of the following functions has a vertical asymptote at $x = -2$ and a horizontal asymptote at $y = 3$?",
+    ["$f(x) = \\frac{3x + 1}{x - 2}$", "$f(x) = \\frac{x + 3}{x + 2}$", "$f(x) = \\frac{3x - 5}{x + 2}$", "$f(x) = \\frac{3x}{x^2 + 2}$"],
+    2,
+    "For $f(x) = \\frac{3x - 5}{x + 2}$, the denominator is zero at $x = -2$, giving a vertical asymptote. The degrees are equal, so the horizontal asymptote is $y = \\frac{3}{1} = 3$.",
+    "Medium"
+);
+
+addQuestion(
+    "Consider $f(x) = \\frac{ax + b}{cx + d}$. If the vertical asymptote is $x = 4$ and the horizontal asymptote is $y = -1$, which could be the function?",
+    ["$f(x) = \\frac{-x + 2}{x - 4}$", "$f(x) = \\frac{x + 2}{-x + 4}$", "$f(x) = \\frac{-x - 4}{x + 1}$", "$f(x) = \\frac{x - 4}{-x - 1}$"],
+    0,
+    "We need the denominator to be zero at $x = 4$ (so $x - 4$ or $4 - x$) and the ratio of leading coefficients to be -1. $f(x) = \\frac{-x + 2}{x - 4}$ has VA at $x = 4$ and HA at $y = \\frac{-1}{1} = -1$.",
+    "Hard"
+);
+
+addQuestion(
+    "Find the x-intercept of the rational function $f(x) = \\frac{2x - 8}{x + 3}$.",
+    ["$x = -3$", "$x = 4$", "$x = -4$", "$x = 8$"],
+    1,
+    "The x-intercept occurs where $y = 0$, which means the numerator must be zero. $2x - 8 = 0 \\Rightarrow 2x = 8 \\Rightarrow x = 4$.",
+    "Easy"
+);
+
+addQuestion(
+    "Find the y-intercept of the rational function $g(x) = \\frac{3x - 6}{x^2 + 2}$.",
+    ["$y = -3$", "$y = 3$", "$y = -6$", "$y = 0$"],
+    0,
+    "The y-intercept occurs where $x = 0$. $g(0) = \\frac{3(0) - 6}{(0)^2 + 2} = \\frac{-6}{2} = -3$.",
+    "Easy"
+);
+
+addQuestion(
+    "Where is the hole in the graph of $f(x) = \\frac{x^2 + 2x - 8}{x - 2}$?",
+    ["At $(2, 0)$", "At $(-4, 0)$", "At $(2, 6)$", "At $(-2, -6)$"],
+    2,
+    "Factor the numerator: $x^2 + 2x - 8 = (x - 2)(x + 4)$. The function simplifies to $x + 4$ for $x \\neq 2$. The hole is at $x = 2$. To find the y-coordinate, plug $x = 2$ into the simplified function: $y = 2 + 4 = 6$. The hole is at $(2, 6)$.",
+    "Hard"
+);
+
+// 26-30 Mixed 2
+addQuestion(
+    "Which of the following describes the end behavior of $f(x) = \\frac{4x^3 + 2x - 1}{x^2 - 5}$?",
+    ["As $x \\to \\pm\\infty, f(x) \\to 4$", "As $x \\to \\pm\\infty, f(x) \\to 0$", "As $x \\to \\pm\\infty, f(x) \\to \\pm\\infty$ (Oblique asymptote)", "As $x \\to \\pm\\infty, f(x) \\to -\\frac{1}{5}$"],
+    2,
+    "The degree of the numerator (3) is exactly one greater than the degree of the denominator (2). This indicates an oblique (slant) asymptote, so $f(x) \\to \\pm\\infty$ as $x \\to \\pm\\infty$.",
+    "Medium"
+);
+
+addQuestion(
+    "What is the domain and range of $f(x) = \\frac{1}{x}$?",
+    ["Domain: $x \\neq 0$, Range: $y \\neq 0$", "Domain: all real numbers, Range: $y \\neq 0$", "Domain: $x \\neq 0$, Range: all real numbers", "Domain: $x > 0$, Range: $y > 0$"],
+    0,
+    "The denominator cannot be zero, so domain is $x \\neq 0$. The numerator is 1, so the fraction can never be zero, meaning the range is $y \\neq 0$.",
+    "Easy"
+);
+
+addQuestion(
+    "Find the vertical and horizontal asymptotes of $f(x) = \\frac{2x^2}{x^2 - x - 6}$.",
+    ["VA: $x = 3, x = -2$; HA: $y = 2$", "VA: $x = -3, x = 2$; HA: $y = 2$", "VA: $x = 3, x = -2$; HA: $y = 0$", "VA: $x = -3, x = 2$; HA: $y = 0$"],
+    0,
+    "Factor the denominator: $x^2 - x - 6 = (x - 3)(x + 2)$. The VA are $x = 3$ and $x = -2$. The degrees are equal, so HA is $y = \\frac{2}{1} = 2$.",
+    "Medium"
+);
+
+addQuestion(
+    "Given $f(x) = \\frac{ax + b}{cx + d}$, what is the x-coordinate of the vertical asymptote?",
+    ["$x = -\\frac{d}{c}$", "$x = \\frac{d}{c}$", "$x = -\\frac{b}{a}$", "$x = \\frac{a}{c}$"],
+    0,
+    "The vertical asymptote occurs where the denominator is zero. $cx + d = 0 \\Rightarrow cx = -d \\Rightarrow x = -\\frac{d}{c}$.",
+    "Medium"
+);
+
+addQuestion(
+    "The function $f(x) = \\frac{x^2 - 16}{x^2 + cx - 12}$ has a vertical asymptote at $x = 2$ and a hole at $x = -6$. What is the value of $c$?",
+    ["$-4$", "$4$", "$-2$", "There is no such $c$"],
+    1,
+    "If it has a VA at $x = 2$ and a hole at $x = -6$, the denominator must have roots 2 and -6. So the denominator is $(x - 2)(x + 6) = x^2 + 4x - 12$. Comparing this to $x^2 + cx - 12$, we see $c = 4$.",
+    "Hard"
+);
+
+let output = `import { Question } from './types';\n\nexport const est2_rational_questions: Question[] = [\n`;
+for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    output += `  {\n`;
+    output += `    id: "${q.id}",\n`;
+    output += `    question: \`${q.question}\`,\n`;
+    output += `    options: [\n`;
+    for (let j = 0; j < q.options.length; j++) {
+        output += `      \`${q.options[j]}\`,\n`;
+    }
+    output += `    ],\n`;
+    output += `    correctAnswer: ${q.correctAnswer},\n`;
+    output += `    explanation: \`${q.explanation}\`,\n`;
+    output += `    category: "${q.category}",\n`;
+    output += `    difficulty: "${q.difficulty}",\n`;
+    output += `    topics: ["Rational Functions"]\n`;
+    output += `  }${i === questions.length - 1 ? '' : ','}\n`;
+}
+output += `];\n`;
+
+fs.writeFileSync('questions_est2_rational.ts', output);
+console.log("Created questions_est2_rational.ts with " + questions.length + " questions.");

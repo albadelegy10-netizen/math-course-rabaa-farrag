@@ -1,0 +1,197 @@
+[
+  {
+    "id": 20260331,
+    "question": "The number of players in a basketball academy increased from 20 to 34 in one month. If m% is the percent increase, then m is equal to:",
+    "options": [
+      "30",
+      "45",
+      "50",
+      "70"
+    ],
+    "correctAnswer": 3,
+    "answerText": "Increase = 34 - 20 = 14. Percent increase = (14 / 20) * 100 = 70%.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260332,
+    "question": "If $f(x) = 2x + 1$ and $g(x) = -3x + 1$, then what is the value of $(f + g)(1)$?",
+    "options": [
+      "1",
+      "3",
+      "6",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "answerText": "$f(1) = 2(1) + 1 = 3$. $g(1) = -3(1) + 1 = -2$. Sum = $3 + (-2) = 1$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260333,
+    "question": "If $3x - 7 = 20$, what is the value of $2x$?",
+    "options": [
+      "4.5",
+      "9.0",
+      "12.5",
+      "18.0"
+    ],
+    "correctAnswer": 3,
+    "answerText": "$3x = 27 \\Rightarrow x = 9$. Thus $2x = 18$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260334,
+    "question": "For what value of a in the system above is $y = 6$?<br><br>$$ \\begin{cases} ax + 3y = 24 \\\\ x + 5y = 33 \\end{cases} $$",
+    "options": [
+      "-2",
+      "-1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Substitute $y = 6$ into the second equation: $x + 30 = 33 \\Rightarrow x = 3$. Substitute $x = 3, y = 6$ into the first: $3a + 18 = 24 \\Rightarrow 3a = 6 \\Rightarrow a = 2$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260335,
+    "question": "What is the slope of the line passing through $A(-3, 4)$ and $B(1, -2)$?",
+    "options": [
+      "-1.5",
+      "0.5",
+      "1.0",
+      "1.5"
+    ],
+    "correctAnswer": 0,
+    "answerText": "$m = (-2 - 4) / (1 - (-3)) = -6 / 4 = -1.5$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260336,
+    "question": "Rounding $0.05674$ kilograms to the nearest gram is equivalent to:",
+    "options": [
+      "6 g",
+      "56 g",
+      "57 g",
+      "567 g"
+    ],
+    "correctAnswer": 2,
+    "answerText": "$0.05674\\text{ kg} = 56.74\\text{ g}$. Rounded to the nearest gram is $57\\text{ g}$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260337,
+    "question": "What is the discriminant of the equation $3x^2 - 3x + 1 = 0$?",
+    "options": [
+      "3",
+      "-3",
+      "-15",
+      "-21"
+    ],
+    "correctAnswer": 1,
+    "answerText": "Discriminant $\\Delta = b^2 - 4ac = (-3)^2 - 4(3)(1) = 9 - 12 = -3$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260338,
+    "question": "If $25^{3x-1} = 125^x$, then $x =$ ?",
+    "options": [
+      "$$1/3$$",
+      "0",
+      "$$2/3$$",
+      "1"
+    ],
+    "correctAnswer": 2,
+    "answerText": "$(5^2)^{3x-1} = (5^3)^x \\Rightarrow 5^{6x-2} = 5^{3x} \\Rightarrow 6x - 2 = 3x \\Rightarrow 3x = 2 \\Rightarrow x = 2/3$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260339,
+    "question": "Which of the following is the equation of the line perpendicular to the line graphed above and passing through $(1, 0)$?<br><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAABmJLR0QA/wD/AP+gvaeTAAAMmElEQVR4nO3dPW4cxxaA0duCA2UmHClVZEACDBBKHAieCbQGL8AB1+DE6BlmXAADr8Fw4ECpMHDk0HAiyIlXQIcK1S94Gv+81xSp2zNTVd3nrOBOTXV9bJJAdavValiv11Gj3W4XERHmyzHfNNvtNiIi+r4vPcqo2tfPfNO0MF/X9/2w2WxKzzJqP5f5csw3Tdd1ERExDEPpUUbVvn7mm6aF+R6UHgKANgkIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApHSr1WpYr9el5xi12+0iIsJ8OeabZrvdRkRE3/elRxlV+/qZb5oW5vMGAkBK1/f9sNlsSs8xaj+X+XLMN03XdRERMQxD6VFG1b5+5pumhfm8gQCQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQ0q1Wq2G9XpeeY9Rut4uICPPlmG+a7XYbERF935ceZVTt62e+aVqYzxsIACld3/fDZrMpPceo/VzmyzHfNF3XRUTEMAylRxlV+/qZb5oW5vMGAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkCKgACQIiAApAgIACkCAkBKt1qthvV6XXqOUbvdLiIizJdjvmm2221ERPR9X3qUUbWvn/lyhmGI3377LX755Zf4/PPPq5tvb7fbxSelhwDg73D8/PPP8eeff0ZExKNHj0qP9UFd3/fDZrMpPceo/VzmyzHfNF3XRbx/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AgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKR0q9VqWK/XpecYtdvtIiLCfDnmm2a73UZERN/3pUcZVfv6mW+aFubzBgJAStf3/bDZbErPMWo/l/lyzDdN13URETEMQ+lRRtW+fuabpoX5vIEAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkNKtVqthvV6XnmPUbreLiAjz5Zhvmu12GxERfd+XHmVU7etnvmlamM8bCAApXd/3w2azKT3HqP1c5ssx3zRd10VExDAMpUcZVfv6mW+aFubzBgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJAioAAkCIgAKQICAApAgJASrdarYb1el16jlG73S4iIsyXY75pttttRET0fV96lFG1r5/5pmlhvv8A6ornQhaOjm4AAAAASUVORK5CYII=\" class=\"max-w-[300px] mx-auto my-2\" />",
+    "options": [
+      "$$y = -2x + 2$$",
+      "$$y = -2x + 1$$",
+      "$$y = \\frac{1}{2}x - \\frac{1}{2}$$",
+      "$$y = 2x - 2$$"
+    ],
+    "correctAnswer": 0,
+    "answerText": "The graphed line passes through $(0, 2)$ and $(-4, 0)$, so its slope is $(2-0)/(0 - -4) = 1/2$. A perpendicular line has slope $-2$. Equation: $y - 0 = -2(x - 1) \\Rightarrow y = -2x + 2$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260340,
+    "question": "The coordinates of the highest point in the graph of the function $f(x) = -2x^2 - 4x + 1$ are:",
+    "options": [
+      "(2, -15)",
+      "(1, -5)",
+      "(-1, 3)",
+      "(-2, 1)"
+    ],
+    "correctAnswer": 2,
+    "answerText": "Vertex x-coordinate $= -b / (2a) = -(-4) / (2 \\times -2) = 4 / -4 = -1$. $y = f(-1) = -2(1) + 4 + 1 = 3$. The point is $(-1, 3)$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260341,
+    "question": "What is the value of $|2x - 3y| + 4y$ for $x = -1$ and $y = -2$?",
+    "options": [
+      "-8",
+      "-4",
+      "0",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "answerText": "$|2(-1) - 3(-2)| + 4(-2) = |-2 + 6| - 8 = |4| - 8 = -4$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260342,
+    "question": "What is the value of $f(-6) + g(-1)$?<br><img src=\"data:image/png;base64,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DR48uFZ/fteuXfrwww8VFxenGTNmhHy+SPPkk08qLi5OH3zwgXbt2mV6HAC1EJEB6dy5s3r27ClJmjt3rnw+3w0fAvXqq6+qsrJS999/v5o3bx6mSYPHsiy9+uqrysjIUExMjG655RY988wzunTpktq3b6/u3bsbna958+b6/ve/r8rKSp6dDrhERAbk3//93zVmzBhJ0m9+8xu99957uvfee6/758vKyjR//nxJqtrwdZsnnnhCM2bMUPPmzfW73/1OTz/9tBYuXKgf/vCH2r17tzIzM02PqCeffFI+n0/z5s3TqVOnTI8D4AYi8hLqe+65R6+//roaNGig6dOnKy4ursY//9Zbb+n06dMaOXJk1ZGLm6xZs0a/+93vdMcdd2jZsmXy+XySpLvvvltdunSRJPXu3dvwlFL37t01fPhwZWdna968eVXXiABwpog8ApGk/Px8de3a9YbxqKys1H/9139Jkmv3Pv7whz9Ikp577rmqeEhSmzZtqpau+vTpY2y+6uy/41deeYWbLAIOF5EB2bdvn44ePapevXrd8M9+/PHHKi4uVtu2bTV+/PiwzBdMlmVpyZIlatKkiQYNGvSN/z02NlZRUVG1+rsIhwkTJqh9+/bas2ePFi9ebHocADWIyIBs2rRJkmr1Q/OVV16RrvxmHBUVFfLZgq24uFilpaXKzMy85vx79uxRx44dlZiYaGS+r/P7/fqXf/kXqdrfPQBnisiAbN68WarFuv/WrVu1atUqJScn6wc/+EGYpguuPXv2SJLatm37jf9t8+bNKi0tdczyle2f//mflZKSouzs7KrvFQDnieiA3GhD/D//8z9lWZYeeOABpaamhmm64LL3EarvfdgWLFggOWj/w1Y92JzSCzhXRAZk06ZNatGihZo2bXrdP3P8+HG9++67Vy2puFGHDh0kSV988cVV/3716tVVP5ydFhBdOV3a7/frT3/6k44fP256HADXEHEBOX36tHbv3n3D5av58+ervLxcd955Z9UPYTdq3769xo4dqy+++EL/9E//pPnz5+tHP/qRpkyZoqFDh0oOOYX36zp06KDRo0ervLy86kgJgLNEXEA2b94sy7JuuIH+9ttvS5IefvjhME0WOu+++64eeOABZWdn66mnnlJJSYmWL1+uAwcOqG3btkpLSzM94jXZf/e///3veWIh4EARdyHh0KFD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\" class=\"max-w-[300px] mx-auto my-2\" />",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "answerText": "From the graph, line $f$ passes through $(-8, 2)$ and $(0, -2)$, yielding $f(x) = -0.5x - 2$. Parabola $g$ has roots at $-4$ and $0$ and vertex $(-2, 4)$, yielding $g(x) = -x(x+4) = -x^2-4x$. $f(-6) = 1$ and $g(-1) = 3$. Sum is $4$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260343,
+    "question": "Which of the following represents the solution set of $g(x) > 3$? (Refer to the previous graph)",
+    "options": [
+      "[-3, -1]",
+      "[-\\infty, -3] \\cup [-1, +\\infty]",
+      "[-\\infty, -1] \\cup [-1, +\\infty]",
+      "(-3, -1)"
+    ],
+    "correctAnswer": 3,
+    "answerText": "We found $g(x) = -x^2 - 4x$. $-x^2 - 4x > 3 \\Rightarrow x^2 + 4x + 3 < 0 \\Rightarrow (x+1)(x+3) < 0$. Solution is $(-3, -1)$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260344,
+    "question": "Given $i = \\sqrt{-1}$, $(2i + 5)(i - 1) = $",
+    "options": [
+      "$$-7 + 3i$$",
+      "$$-7 - 3i$$",
+      "$$-3 + 3i$$",
+      "$$3 + 3i$$"
+    ],
+    "correctAnswer": 0,
+    "answerText": "$(2i + 5)(i - 1) = 2i^2 - 2i + 5i - 5 = 2(-1) + 3i - 5 = -7 + 3i$.",
+    "category": "EST1-2026-MARCH-NEW"
+  },
+  {
+    "id": 20260345,
+    "question": "Solving $2x + 3yx + 1 = 4x^2$ for $y$ will give:",
+    "options": [
+      "$$y = \\frac{4x^2 - 2x - 1}{3x}$$",
+      "$$y = 4x^2 - 2x - 1$$",
+      "$$y = 4x^2 - 5x - 1$$",
+      "$$y = \\frac{4x^2 + 2x + 1}{3x}$$"
+    ],
+    "correctAnswer": 0,
+    "answerText": "$3yx = 4x^2 - 2x - 1 \\Rightarrow y = \\frac{4x^2 - 2x - 1}{3x}$.",
+    "category": "EST1-2026-MARCH-NEW"
+  }
+]
