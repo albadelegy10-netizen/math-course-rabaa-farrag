@@ -9,7 +9,6 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: '/math-course-rabaa-farrag/',
     define: {
       'process.env.API_KEY': JSON.stringify(env.API_KEY),
     },
